@@ -3,10 +3,10 @@ import {List, Datagrid, TextField, ReferenceField, SearchInput, TextInput} from 
 
 const postFilters = [
   <SearchInput source="q" alwaysOn />,
-  <TextInput label="Username" source="username" defaultValue="" />,
+  <TextInput label="Title" source="title" defaultValue="" />,
 ];
 
-export const PostList = (props:any) => (
+export const Patients = (props:any) => (
   <List {...props} filters={postFilters}>
     <Datagrid rowClick="edit">
       <TextField source="id" />

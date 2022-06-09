@@ -6,7 +6,7 @@ const postFilters = [
   <TextInput label="Name" source="name" defaultValue="" />,
 ];
 
-export const UserList = (props:any) => (
+export const Appointments = (props:any) => (
   <List {...props} filters={postFilters}>
     <Datagrid rowClick="edit">
       <TextField source="id" />

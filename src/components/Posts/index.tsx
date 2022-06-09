@@ -9,12 +9,8 @@ const postFilters = [
 export const PostList = (props:any) => (
   <List {...props} filters={postFilters}>
     <Datagrid rowClick="edit">
-      <ReferenceField source="userId" reference="users">
-        <TextField source="name" />
-      </ReferenceField>
       <TextField source="id" />
       <TextField source="title" />
-      <TextField source="body" />
     </Datagrid>
   </List>
 );

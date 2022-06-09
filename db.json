@@ -1,7 +1,7 @@
 {
     "patients": [
       {
-        "ID": "k12",
+        "id": "k12",
         "Name": "HogeHoge",
         "Birthday": "1970/1/1",
         "Gender": "Male",
@@ -10,7 +10,7 @@
         "Insuarance Tpe": "Insuarance A"
       },
       {
-        "ID": "k22",
+        "id": "k22",
         "Name": "FugaFuga",
         "Birthday": "1970/1/1",
         "Gender": "Female",
@@ -19,7 +19,7 @@
         "Insuarance Tpe": "Insuarance B"
       },
       {
-        "ID": "new",
+        "id": "new",
         "Name": "GehoGeho",
         "Birthday": "",
         "Gender": "",

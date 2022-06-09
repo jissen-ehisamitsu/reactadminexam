@@ -3,12 +3,13 @@ import {List, Datagrid, TextField, EmailField, SearchInput, TextInput} from "rea
 
 const postFilters = [
   <SearchInput source="q" alwaysOn />,
-  <TextInput label="Username" source="username" defaultValue="" />,
+  <TextInput label="Name" source="name" defaultValue="" />,
 ];
 
 export const UserList = (props:any) => (
   <List {...props} filters={postFilters}>
     <Datagrid rowClick="edit">
+      <TextField source="id" />
       <TextField source="name" />
     </Datagrid>
   </List>

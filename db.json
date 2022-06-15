@@ -17,21 +17,26 @@
         "Contact": "phone",
         "Contact Detail": "080-3333-4444",
         "Insuarance Tpe": "Insuarance B"
-      },
-      {
-        "id": "new",
-        "Name": "GehoGeho",
-        "Birthday": "",
-        "Gender": "",
-        "Contact": "",
-        "Contact Detail": "",
-        "Insuarance Tpe": ""
       }
     ],
     "appointments": [
       {
         "id": 1,
-        "name": "typicode"
+        "Patient Name": "HogeHoge",
+        "Consultation Category": "抜歯",
+        "Room": "Room A",
+        "Start Date": "01/06/2022 12:00 PM",
+        "End Date": "01/06/2022 12:30 PM",
+        "More Information": "兄と一緒に来院予定"
+      },
+      {
+        "id": 2,
+        "Patient Name": "Bob",
+        "Consultation Category": "診療",
+        "Room": "Room B",
+        "Start Date": "01/06/2022 1:00 PM",
+        "End Date": "01/06/2022 1:30 PM",
+        "More Information": ""
       }
     ]
 }
